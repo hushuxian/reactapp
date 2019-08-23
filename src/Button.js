@@ -5,12 +5,12 @@ import "./Button.css"
 
 export default class Button extends React.Component{
 
-	static prop = {
+	/*static prop = {
 		name:Prop.name,
 		handle: Prop.func,
 		clickHandler:Prop.bool,
 		wide:Prop.bool
-	};
+	};*/
 	handleClick = ()=>{
 		this.props.clickHandler(this.props.name);
 	}

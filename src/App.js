@@ -4,14 +4,15 @@ import Display from './Display';
 import './App.css';
 
 class App extends Component {
+
+  printName = buttomName => {
+  		console.log(buttomName);
+  };
   render() {
-
-
-  	
     return (
     	<div className="app-panel">
     	  <Display />
-    	  <ButtonPanel />
+    	  <ButtonPanel clickHandler={this.printName}/>
         </div>
     );
   }
