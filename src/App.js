@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ButtonPanel from './ButtonPanel';
+import Display from './Display';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,8 @@ class App extends Component {
   	
     return (
     	<div className="app-panel">
-    	  <ButtonPanel/>
+    	  <Display />
+    	  <ButtonPanel />
         </div>
     );
   }
