@@ -6,9 +6,9 @@ import "./ButtonPanel.css"
 
 
 class ButtonPanel extends React.Component {
-	/*static types = {
+	static types = {
 		clickHandler:Prop.func
-	}*/
+	}
 	handleClick = buttonName=>{
 		this.props.clickHandler(buttonName)
 	}
